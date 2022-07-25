@@ -5,4 +5,4 @@ data = pd.read_csv("https://raw.githubusercontent.com/zarrifnordin/Air-Traffic_L
 
 df["Aircraft Version'].replace('-', np.nan, inplace = True)
    
-df.head()
+
